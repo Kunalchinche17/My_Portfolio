@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio of Kunal Rajabhau Chinche, GIS Analyst, Cartographer and Geospatial Professional.">
+<title>Kunal Chinche | GIS & Geospatial Portfolio</title>
+<style>
+:root{--bg:#0b1220;--panel:#111c2e;--panel2:#142238;--text:#eef4ff;--muted:#a9b8cc;--accent:#63e6be;--blue:#7aa7ff;--line:rgba(255,255,255,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:10;background:rgba(11,18,32,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.navin{display:flex;align-items:center;justify-content:space-between;padding:15px 0;gap:20px}.brand{font-weight:800;letter-spacing:.2px}.brand span{color:var(--accent)}.links{display:flex;gap:22px;flex-wrap:wrap;font-size:.92rem;color:var(--muted)}.links a:hover{color:var(--accent)}
+.hero{padding:86px 0 70px;background:radial-gradient(ellipse at 85% 15%,rgba(99,230,190,.14),transparent 32%),radial-gradient(ellipse at 15% 85%,rgba(122,167,255,.12),transparent 35%)}
+.eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:.78rem}
+h1{font-size:clamp(2.5rem,6vw,4.8rem);line-height:1.05;letter-spacing:-2px;margin:16px 0 18px;max-width:850px}
+.lead{font-size:1.15rem;color:var(--muted);max-width:760px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:12px 18px;border-radius:10px;font-weight:750;border:1px solid var(--line)}.primary{background:var(--accent);color:#062018;border-color:var(--accent)}.btn:hover{transform:translateY(-1px)}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:48px}.metric{padding:18px;border:1px solid var(--line);background:rgba(17,28,46,.7);border-radius:14px}.metric strong{display:block;font-size:1.4rem;color:var(--accent)}.metric span{font-size:.86rem;color:var(--muted)}
+section{padding:70px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:28px}.section-head h2{font-size:clamp(1.8rem,4vw,2.6rem);letter-spacing:-.8px;margin:0}.section-head p{color:var(--muted);max-width:540px;margin:0}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{border:1px solid var(--line);background:linear-gradient(145deg,var(--panel),#0e192a);border-radius:18px;padding:24px;min-width:0}.card h3{margin:10px 0 8px;font-size:1.25rem}.card p{color:var(--muted);margin:0 0 16px}.num{font-size:.8rem;color:var(--accent);font-weight:800;letter-spacing:1px}.tags{display:flex;flex-wrap:wrap;gap:7px}.tag{font-size:.78rem;color:#d9e7fa;border:1px solid var(--line);padding:5px 9px;border-radius:999px;background:rgba(255,255,255,.03)}
+.skill-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.skill{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:19px}.skill h3{font-size:1rem;margin:0 0 10px;color:var(--accent)}.skill p{margin:0;color:var(--muted);font-size:.94rem}
+.timeline{border-left:1px solid rgba(99,230,190,.45);margin-left:8px;padding-left:24px;display:grid;gap:24px}.job{position:relative}.job:before{content:"";position:absolute;left:-30px;top:8px;width:10px;height:10px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 5px rgba(99,230,190,.1)}.jobtop{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.job h3{margin:0;font-size:1.1rem}.job .where{color:var(--accent);font-size:.93rem}.job time{color:var(--muted);font-size:.88rem}.job ul{margin:10px 0 0;padding-left:20px;color:var(--muted)}.job li{margin:5px 0}
+.about{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}.about p{color:var(--muted)}.highlight{padding:25px;background:linear-gradient(135deg,rgba(99,230,190,.12),rgba(122,167,255,.08));border:1px solid var(--line);border-radius:18px}.highlight h3{margin-top:0}.highlight ul{padding-left:19px;color:var(--muted)}
+.contact{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:30px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}.contact h2{margin:0 0 8px}.contact p{margin:0;color:var(--muted)}footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:.88rem}
+.note{font-size:.82rem;color:var(--muted);margin-top:16px}
+@media(max-width:760px){.links{gap:12px;font-size:.82rem}.metrics{grid-template-columns:repeat(2,1fr)}.grid,.skill-grid,.about{grid-template-columns:1fr}.hero{padding-top:60px}.section-head{display:block}.section-head p{margin-top:10px}}
+@media print{nav,.actions{display:none}.hero,section{padding:30px 0}body{background:white;color:#111}.card,.metric,.skill,.highlight,.contact{background:white;border:1px solid #ccc;color:#111}.lead,.card p,.skill p,.job ul,.about p,.contact p,.metric span{color:#444}}
+</style>
+</head>
+<body>
+<nav><div class="wrap navin"><a class="brand" href="#home">KUNAL<span>.</span>GIS</a><div class="links"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div></div></nav>
+<header class="hero" id="home"><div class="wrap">
+<div class="eyebrow">GIS Analyst · Cartography · Remote Sensing</div>
+<h1>Turning geospatial data into <span style="color:var(--accent)">clear, useful maps.</span></h1>
+<p class="lead">I’m Kunal Rajabhau Chinche, a GIS and geospatial professional with 4 years and 10 months of experience across GIS mapping, cartography, LiDAR-based HD mapping, remote sensing, spatial data management, and quality assurance.</p>
+<div class="actions"><a class="btn primary" href="#projects">Explore my work ↓</a><a class="btn" href="mailto:Kunalchinche1711@gmail.com">Contact me</a><a class="btn" href="#experience">View experience</a></div>
+<div class="metrics">
+<div class="metric"><strong>4y 10m</strong><span>GIS experience stated in CV</span></div>
+<div class="metric"><strong>GIS + CAD</strong><span>Mapping and data conversion</span></div>
+<div class="metric"><strong>LiDAR / HD</strong><span>Point clouds and semantic mapping</span></div>
+<div class="metric"><strong>Web GIS</strong><span>Maps, layers and app workflows</span></div>
+</div>
+</div></header>
+<main>
+<section id="about"><div class="wrap"><div class="section-head"><h2>About me</h2><p>My background combines geospatial data production, spatial analysis, mapping quality, and web mapping workflows.</p></div>
+<div class="about"><div class="card"><p>I work with spatial datasets from creation and editing through validation, analysis, conversion, and map production. My experience includes digitization, georeferencing, raster analysis, thematic mapping, DEM and contour workflows, LiDAR point-cloud processing, and GIS/CAD data exchange.</p><p>I have also worked with web mapping platforms and tools, including ArcGIS Online, ArcGIS Enterprise/Server/Portal workflows, GeoServer, Leaflet, OpenLayers, and Mapbox. My CV describes my Python GIS automation skills as basic, and this portfolio can grow as I add more development projects.</p></div>
+<div class="highlight"><h3>What I bring</h3><ul><li>Spatial data creation, editing and management</li><li>GIS map production and cartography</li><li>LiDAR feature classification and HD map QA</li><li>Raster analysis, DEM and contour generation</li><li>GIS data conversion: SHP, KML, DXF, DWG and GeoJSON</li><li>Web maps, hosted layers and publishing workflows</li></ul></div></div>
+</div></section>
+<section id="projects" style="background:rgba(255,255,255,.018)"><div class="wrap"><div class="section-head"><h2>Selected projects</h2><p>Projects and workflows listed in my CV. Add screenshots, live links, datasets, and code repositories as they become available.</p></div>
+<div class="grid">
+<article class="card"><div class="num">PROJECT 01 · SURVEY / DATA COLLECTION</div><h3>Public Park Visitor Feedback App</h3><p>Designed and published an interactive survey using ArcGIS Survey123 Web Designer. Included text, image, map, and Likert-scale questions with conditional logic. Collected responses and visualized results in ArcGIS Online, then exported data to Shapefile and CSV for analysis.</p><div class="tags"><span class="tag">ArcGIS Survey123</span><span class="tag">ArcGIS Online</span><span class="tag">CSV / SHP</span><span class="tag">Conditional logic</span></div></article>
+<article class="card"><div class="num">PROJECT 02 · WEB GIS</div><h3>ArcGIS Pro & ArcGIS Online Web Map</h3><p>Published feature layers from ArcGIS Pro to ArcGIS Online. Configured attribute fields, symbology, pop-ups, editing permissions, satellite basemap, and sharing controls for an interactive web map.</p><div class="tags"><span class="tag">ArcGIS Pro</span><span class="tag">ArcGIS Online</span><span class="tag">Hosted layers</span><span class="tag">Web mapping</span></div></article>
+<article class="card"><div class="num">PROJECT 03 · PUBLIC-FACING MAP</div><h3>City Facilities Mapping Web Project</h3><p>Created a public-facing web map of city facilities, including parks, hospitals, and schools, using hosted feature layers and basemaps. Configured layer styling, labels, and pop-ups, then published and shared the map and editable GIS layers.</p><div class="tags"><span class="tag">Web GIS</span><span class="tag">Feature layers</span><span class="tag">Labels & pop-ups</span><span class="tag">Basemaps</span></div></article>
+<article class="card"><div class="num">PROJECT 04 · TERRAIN / GIS ANALYSIS</div><h3>DEM, Elevation & Contour Mapping</h3><p>GIS workflow experience includes extracting elevation values from Digital Elevation Models, generating contour maps, and preparing location and thematic maps. Add a sample map layout and processing screenshots here to make this case study visual.</p><div class="tags"><span class="tag">ArcGIS Pro</span><span class="tag">QGIS</span><span class="tag">DEM</span><span class="tag">Contours</span></div></article>
+<article class="card"><div class="num">PROJECT 05 · LiDAR / HD MAPS</div><h3>LiDAR-Based HD Map Development</h3><p>Worked on LiDAR-based HD map development for autonomous-vehicle applications, including semantic, live, and base-map layers. Mapped road features and traffic-control elements, and performed quality analysis and validation before submission.</p><div class="tags"><span class="tag">LiDAR point clouds</span><span class="tag">Semantic mapping</span><span class="tag">HD maps</span><span class="tag">QA/QC</span></div></article>
+<article class="card"><div class="num">PROJECT 06 · GIS / CAD DATA</div><h3>Spatial Data Conversion & Map Preparation</h3><p>Supported GIS and AutoCAD projects by converting spatial data between SHP, KML, DXF, and DWG formats, creating key and location maps, generating KML for field visualization, and validating geotagged field locations.</p><div class="tags"><span class="tag">QGIS</span><span class="tag">AutoCAD</span><span class="tag">KML</span><span class="tag">DXF / DWG</span></div></article>
+</div><p class="note">Portfolio integrity note: these descriptions are based on the experience and projects listed in my CV. This page does not claim that live demos or public repositories are already published.</p>
+</div></section>
+<section id="skills"><div class="wrap"><div class="section-head"><h2>Skills & tools</h2><p>Grouped from the skills section of my CV.</p></div>
+<div class="skill-grid">
+<div class="skill"><h3>GIS & Spatial Analysis</h3><p>GIS mapping, cartography, digitization, georeferencing, feature creation, raster analysis, LULC mapping, DEM analysis, contour generation, watershed mapping, QA/QC.</p></div>
+<div class="skill"><h3>GIS Software</h3><p>ArcGIS Pro, ArcMap, QGIS, ArcGIS Online, ArcGIS Enterprise, ArcGIS Server, Portal, Google Earth Pro, ERDAS IMAGINE, AutoCAD.</p></div>
+<div class="skill"><h3>LiDAR & HD Mapping</h3><p>LiDAR point-cloud processing, feature classification, semantic mapping, lane and road boundary mapping, intersection mapping, traffic-control feature mapping, annotation.</p></div>
+<div class="skill"><h3>Web GIS</h3><p>GeoServer, Leaflet, OpenLayers, Mapbox, ArcGIS Web Maps, Instant Apps, StoryMaps, Survey123, Field Maps, Experience Builder, Web AppBuilder.</p></div>
+<div class="skill"><h3>Programming & Web</h3><p>Basic Python, HTML, CSS, JavaScript, Bootstrap; basic Python-based GIS processing and workflow automation.</p></div>
+<div class="skill"><h3>Databases & Tools</h3><p>PostgreSQL/PostGIS, MySQL, basic BigQuery, AWS EC2/S3/IAM/RDS, Git, GitHub, Jira, Linux (Ubuntu), Windows.</p></div>
+</div></div></section>
+<section id="experience" style="background:rgba(255,255,255,.018)"><div class="wrap"><div class="section-head"><h2>Professional experience</h2><p>Roles and dates reproduced from my CV.</p></div>
+<div class="timeline">
+<div class="job"><div class="jobtop"><div><h3>GIS and CAD Expert</h3><div class="where">Abhijit Bhanap Consultant & Contractors Pvt. Ltd. · Pune</div></div><time>Aug 2025 – Present</time></div><ul><li>Support GIS and AutoCAD projects involving mapping, spatial data management, and map preparation.</li><li>Use basic Python scripting for GIS data processing and workflow automation.</li><li>Convert SHP, KML, DXF, and DWG; create key/location maps and KML for field visualization.</li><li>Extract elevation from DEMs and generate contour maps.</li></ul></div>
+<div class="job"><div class="jobtop"><div><h3>Block GIS Coordinator</h3><div class="where">Vikas Sahyog Kendra · Jharkhand</div></div><time>Oct 2024 – Mar 2025</time></div><ul><li>Supported the Cluster Facilitation Project under MGNREGA for rural development.</li><li>Prepared Smart Detailed Project Reports and thematic maps including land-use, contour, watershed, proposed-activity, soil, and location maps.</li><li>Coordinated mapping and reporting activities.</li></ul></div>
+<div class="job"><div class="jobtop"><div><h3>Senior ITES Executive (Cartographer)</h3><div class="where">i-Merit Technology Services Pvt. Ltd. · Kolkata</div></div><time>May 2023 – Feb 2024</time></div><ul><li>Worked on LiDAR-based HD map development for autonomous-vehicle applications, including projects for Cruise LLC.</li><li>Mapped semantic, live, and base-map layers and traffic-control features.</li><li>Performed quality validation and processed/classified LiDAR point-cloud datasets.</li></ul></div>
+<div class="job"><div class="jobtop"><div><h3>GIS Executive</h3><div class="where">Genesys International Corporation Ltd. · Mumbai</div></div><time>Apr 2022 – May 2023</time></div><ul><li>Contributed to Google 3D Street View mapping for Indian cities under WONOBO 2.0.</li><li>Performed preprocessing, digitization, feature creation, base-map creation, and LULC mapping.</li></ul></div>
+<div class="job"><div class="jobtop"><div><h3>GIS Consultant</h3><div class="where">Airshed Planning Professionals Pvt. Ltd. · Kanpur</div></div><time>Jan 2021 – Mar 2022</time></div><ul><li>Performed georeferencing, data maintenance, digitization, feature creation, and base-map preparation.</li><li>Processed satellite imagery, including correction, enhancement, interpretation, and classification.</li><li>Created and managed spatial layers and conducted raster analysis, data conversion, and map production.</li></ul></div>
+</div></div></section>
+<section id="education"><div class="wrap"><div class="section-head"><h2>Education & certification</h2><p>Academic background as listed in my CV.</p></div><div class="grid">
+<div class="card"><h3>M.Sc. in Geoinformatics</h3><p>Suresh Gyan Vihar University, Jaipur, Rajasthan · 2021</p></div>
+<div class="card"><h3>B.Sc. in Computer Science</h3><p>Sant Gadge Baba Amravati University, Amravati, Maharashtra · 2019</p></div>
+<div class="card"><h3>Web GIS Development Course</h3><p>Udemy · Instructor: Krishna Lodha</p></div>
+<div class="card"><h3>Additional education</h3><p>HSC – General Science (2016) · SSC – Science (2013)</p><p class="note">The CV also mentions “Esri and other certifications” without listing specific certification names.</p></div>
+</div></div></section>
+<section id="contact"><div class="wrap"><div class="contact"><div><h2>Let’s connect</h2><p>Open to GIS mapping, cartography, geospatial data, and Web GIS opportunities.</p><p style="margin-top:8px">Pune, Maharashtra, India</p></div><div class="actions" style="margin:0"><a class="btn primary" href="mailto:Kunalchinche1711@gmail.com">Email me</a><a class="btn" href="tel:+919511670602">Call me</a></div></div><p class="note">Before publishing, consider whether you want your phone number and email visible to everyone. Add your LinkedIn and GitHub profile links when ready.</p></div></section>
+</main>
+<footer><div class="wrap">© <span id="year">2026</span> Kunal Rajabhau Chinche · GIS & Geospatial Portfolio</div></footer>
+</body></html>
